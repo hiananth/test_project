@@ -35,9 +35,9 @@ for i in range(1,5):
         print(j,end="  ")
     print(" ")
     
-children={"child1":{"name":"arun","age":12},
-          "child2":{"name":"kapil","age":34},
-          "child3":{"name":"suresh","age":41}
+children={"child1":{"name":"arun"},
+          "child2":{"name":"kapil"},
+          "child3":{"name":"arun"}
          }
 print(children)
 
