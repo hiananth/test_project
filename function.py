@@ -50,4 +50,62 @@ def sum(num):
         sum=sum+i
     print(sum)
 sum(numbers)
+
+
+
+
+
+#20/02/2024   
+lis1=[1,2,3,2,4,3,5]
+def num(n):
+    lis2=[]
+    for i in n:
+        if i not in lis2:
+           lis2.append(i) 
+    return lis2
+print (num(lis1))
+
+
+
+
+
+
+
+c="i love my country"
+def vou(v):
+    lel=["a","A","e","E","i","I","o","O","u","U"]
+    x=0
+    y=0
+    for i in v:
+        if i in lel:
+            x=x+1
+        else:
+            y=y+1
+    print(x)
+    print(y)
+vou(c)
+
+
+
+#factorial
+def fact(f):
+    if f==1:
+        return 1 
+    else:
+        return(f*fact(f-1))
+v=int(input("enter the number:"))
+print(fact(v))
+
+str="I Love My CounTrY"
+def wrd(l):
+    for i in str:
+        if i in 
+
+
+        
     
+
+ 
+            
+    
+
