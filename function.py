@@ -96,10 +96,6 @@ def fact(f):
 v=int(input("enter the number:"))
 print(fact(v))
 
-str="I Love My CounTrY"
-def wrd(l):
-    for i in str:
-        if i in 
 
 
         
